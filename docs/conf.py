@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'terraform-gke-cluster'
+project = 'terraform-gke-base'
 copyright = '2023, Andrew Linzie'
 author = 'Andrew Linzie'
 release = '0.1.0'

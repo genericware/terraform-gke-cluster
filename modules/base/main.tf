@@ -1,9 +1,19 @@
+resource "google_service_account" "default" {
+  account_id = ""
+  # todo: ...
+}
+
+resource "google_project" "default" {
+  name       = var.name
+  project_id = var.id
+}
+
 resource "google_container_cluster" "default" {
   project = google_project.default.id
   name = ""
   location = var.region
 
-  # We can't create a cluster with no node pool defined, but we want to only use
+  # We can't create a base with no node pool defined, but we want to only use
   # separately managed node pools. So we create the smallest possible default
   # node pool and immediately delete it.
   remove_default_node_pool = true
