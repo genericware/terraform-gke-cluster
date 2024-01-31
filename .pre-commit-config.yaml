@@ -33,7 +33,7 @@ repos:
     rev: v0.17.0
     hooks:
       - id: terraform-docs-docker
-        args: ["--output-file", "README.md", "."]
+        args: ["--output-file", "README.terraform.md", "."]
 
   - repo: https://github.com/pre-commit/pygrep-hooks
     rev: v1.10.0
