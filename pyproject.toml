@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "terraform-gke-cluster"
 version = "0.1.0"
-description = ""  # todo
+description = "A terraform project for gke clusters."
 license = "MIT"
 authors = ["caerulescens <caerulescens.github@proton.me>"]
 maintainers = ["caerulescens <caerulescens.github@proton.me>"]
